@@ -1,35 +1,59 @@
-
-header{
-    display: flex;
+header {
     justify-content: space-between;
-    height: 70px;
+    display: flex;
+    height: 100px;
+    background-color: #440047;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
 }
-#navbar .logo{
-    text-transform: uppercase;
-    font-size: 25px;
-    padding: 16px;
-    font-weight: 400;
-    float: right;
+
+ul{
+    list-style: none;
+    float: left;
     display: flex;
 }
-
-#navbar .logo img{
-    height: 100px;
-}
-
-
-#navbar ul{
-    list-style: none;
-    text-transform: uppercase;
-    float: left;
-}
-
-#navbar ul li{
-    float: left;
-}
-
-#navbar ul li a{
+ul li a{
     display: block;
     padding: 20px;
     text-align: center;
+    color: #FBECEC;
+    text-decoration: none;
+    
+}
+ul li a:hover{
+    background-color:#E11D74;
+}
+
+.logo{
+    text-transform: uppercase;
+    float: right;
+    display: flex;
+    align-items: center;
+    color: #FBECEC;
+    
+}
+.logo img{
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* --------------- */
+.imagen {
+    float: right;
+    width: 50%;
+}
+  
+.imagen img {
+    width: 100%;
+}
+  
+.datos {
+    float: left;
+    width: 50%;
+    padding: 20px 20px 20px 40px;
+}
+.datos h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 46px;
 }
