@@ -1,30 +1,31 @@
+/* ----------------nav---------------- */
 header {
-    justify-content: space-between;
-    display: flex;
     height: 100px;
     background-color: #440047;
     align-items: center;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
 }
 
-ul{
+#navbar ul{
     list-style: none;
     float: left;
     display: flex;
 }
-ul li a{
+#navbar ul li a{
     display: block;
     padding: 20px;
     text-align: center;
     color: #FBECEC;
     text-decoration: none;
+    font-size: large;
     
 }
-ul li a:hover{
+#navbar ul li a:hover{
     background-color:#E11D74;
 }
 
-.logo{
+#navbar .logo{
     text-transform: uppercase;
     float: right;
     display: flex;
@@ -32,12 +33,18 @@ ul li a:hover{
     color: #FBECEC;
     
 }
-.logo img{
+#navbar .logo img{
     height: 100px;
     margin-left: 10px;
     margin-right: 10px;
 }
-/* --------------- */
+
+/* ---------------home---------------------- */
+main{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    background-color:#91D18B;
+}
 .imagen {
     float: right;
     width: 50%;
@@ -45,12 +52,13 @@ ul li a:hover{
   
 .imagen img {
     width: 100%;
+    display: flex;
 }
   
 .datos {
     float: left;
     width: 50%;
-    padding: 20px 20px 20px 40px;
+    padding: 20px 20px 20px 20px;
 }
 .datos h1 {
     text-transform: uppercase;
