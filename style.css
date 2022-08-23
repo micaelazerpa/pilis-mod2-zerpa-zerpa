@@ -41,27 +41,47 @@ header {
 
 /* ---------------home---------------------- */
 main{
+    background-color:#91D18B;
+}
+#home {
     display: flex;
     padding: 10px 10px 10px 10px;
-    background-color:#91D18B;
+    
 }
 .imagen {
     float: right;
-    width: 50%;
+   
 }
   
 .imagen img {
     width: 100%;
-    display: flex;
+    /*max-width: 50%; */
+   /*  max-height: 50%; */
 }
   
-.datos {
+.dato1 {
     float: left;
-    width: 50%;
+    width: 151%;
     padding: 20px 20px 20px 20px;
 }
-.datos h1 {
+/* .dato1 h1 {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 46px;
+} */
+
+/* ------------el evento--------------- */
+#evento{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+   
 }
+video{
+    width: 100%;
+}
+.dato2 {
+    float: right;
+    width: 70%;
+    padding: 20px 20px 20px 20px;
+}
+
