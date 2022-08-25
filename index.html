@@ -1,34 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
     <link rel="shortcut icon" href="flor.ico" type="image/x-icon" />
-</head>
-<body>
+  </head>
+  <body>
     <header id="mainheader">
-        <nav id="navbar">
-          <div class="container">
-            <div class="logo">
-                <h2>Paseo de Flores</h2>
-                <a href="index.html"><img src="flor.ico" alt="logo"></a>                 
-            </div>
-            
-            <ul>
-              <li><a href="#about">Nosotros</a></li>
-              <li><a href="#evento">El evento</a></li>
-              <li><a href="#contact">Registrate</a></li>
-            </ul>
+      <nav id="navbar">
+        <div class="container">
+          <div class="logo">
+            <h2>Paseo de Flores</h2>
+            <a href="index.html"><img src="flor.ico" alt="logo" /></a>
           </div>
-        </nav>
+
+          <ul>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#evento">El evento</a></li>
+            <li><a href="#contact">Registrate</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
+    <section id="nosotros">
+      <div class="container">
+        <div class="nosotros-description">
+          <h1>QUIENES SOMOS?</h1>
+          <p class="large">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus sed
+            facilisi ultrices tincidunt sed turpis et dictumst justo. Tempor
+            venenatis magnis consequat, accumsan. Aliquet elit velit fringilla
+            nulla nam. Dui purus quisque a dictumst odio molestie. Vitae nullam
+            quis odio etiam varius. Vivamus et nibh aliquet auctor vivamus
+            maecenas velit et pretium. Ultrices tempor dapibus massa nunc amet
+            dignissim mauris. Scelerisque congue mauris, et ornare nibh quis.
+          </p>
+        </div>
+        <div class="nosotros-imagen"></div>
+      </div>
+    </section>
 
+    <section id="contact">
+      <div class="container">
+        <div class="contact-form">
+          <h1>FORMULARIO DE CONTACTO</h1>
+          <form action="">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input class="form-control" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="name">Email</label>
+              <input class="form-control" type="email" />
+            </div>
+            <div class="form-group">
+              <label for="name">Mensaje</label>
+              <textarea
+                class="form-control"
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <button class="btn btn-light">Enviar</button>
+          </form>
+        </div>
 
-
-
-
-</body>
+        <div class="contact-title">
+          <h2>SUMATE AL EVENTO PARA POTENCIAR EL COMERCIO LOCAL</h2>
+          <p class="large">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus sed
+            facilisi ultrices tincidunt sed turpis et dictumst justo. Tempor
+            venenatis magnis consequat, accumsan. Aliquet elit velit fringilla
+            nulla nam. Dui purus quisque a dictumst odio molestie. Vitae nullam
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
