@@ -9,7 +9,8 @@ async function getIp() {
     let locationResponse = await responseLocation.json();
     console.log(locationResponse);
 
-    let responseEvento = await fetch("https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=-24.18847&lon=-65.29989&appid=66316d0d6ee670997f4c51bfe416f342");
+    let responseEvento = await fetch("api.openweathermap.org/data/2.5/forecast?lat=-24.18847&lon=-65.29989&appid=66316d0d6ee670997f4c51bfe416f342"); 
+    /* let responseEvento = await fetch("https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=-24.18847&lon=-65.29989&appid=66316d0d6ee670997f4c51bfe416f342"); */
     let locationEvento = await responseEvento.json();
     console.log(locationEvento);
   } catch {
