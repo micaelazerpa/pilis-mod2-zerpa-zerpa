@@ -38,13 +38,8 @@ header {
   float: right;
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   color: #FBECEC;
   padding: 0px 0px 0px 300px;
-  
-=======
-  color: #fbecec;
->>>>>>> 4abd91df05d9c1aee3ae672aea6d39d7c85f0b86
 }
 #navbar .logo img {
   height: 100px;
