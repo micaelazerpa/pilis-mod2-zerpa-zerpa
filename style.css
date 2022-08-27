@@ -1,87 +1,179 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
 /* ----------------nav---------------- */
 header {
-    height: 100px;
-    background-color: #440047;
-    align-items: center;
-    padding: 10px 10px 10px 10px;
-    margin: auto;
+  height: 100px;
+  background-color: #440047;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
 }
 
 #navbar ul{
-    list-style: none;
-    float: left;
-    display: flex;
+  list-style: none;
+  float: left;
+  display: flex;
 }
 #navbar ul li a{
-    display: block;
-    padding: 20px;
-    text-align: center;
-    color: #FBECEC;
-    text-decoration: none;
-    font-size: large;
-    
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: #FBECEC;
+  text-decoration: none;
+  font-size: large;
+  
 }
 #navbar ul li a:hover{
-    background-color:#E11D74;
+  background-color:#E11D74;
 }
 
 #navbar .logo{
-    text-transform: uppercase;
-    float: right;
-    display: flex;
-    align-items: center;
-    color: #FBECEC;
-    
+  text-transform: uppercase;
+  float: right;
+  display: flex;
+  align-items: center;
+  color: #FBECEC;
+  
 }
 #navbar .logo img{
-    height: 100px;
-    margin-left: 10px;
-    margin-right: 10px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* ---------------home---------------------- */
 main{
-    background-color:#91D18B;
+  background-color:#91D18B;
 }
 #home {
-    display: flex;
-    padding: 10px 10px 10px 10px;
-    
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  
 }
 .imagen {
-    float: right;
-   
+  float: right;
+ 
 }
-  
+
 .imagen img {
-    width: 100%;
-    /*max-width: 50%; */
-   /*  max-height: 50%; */
+  width: 100%;
+  /*max-width: 50%; */
+ /*  max-height: 50%; */
 }
-  
+
 .dato1 {
-    float: left;
-    width: 151%;
-    padding: 20px 20px 20px 20px;
+  float: left;
+  width: 151%;
+  padding: 20px 20px 20px 20px;
 }
 /* .dato1 h1 {
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 46px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 46px;
 } */
 
 /* ------------el evento--------------- */
 #evento{
-    padding: 10px 10px 10px 10px;
-    display: flex;
-   
+  padding: 10px 10px 10px 10px;
+  display: flex;
+ 
 }
 video{
-    width: 100%;
+  width: 100%;
 }
 .dato2 {
-    float: right;
-    width: 70%;
-    padding: 20px 20px 20px 20px;
+  float: right;
+  width: 70%;
+  padding: 20px 20px 20px 20px;
+}
+.container {
+  display: flex;
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 10px;
 }
 
+/* nosotros */
+#nosotros {
+  display: flex;
+  background: #fcd21d;
+  padding: 100px 0;
+}
+
+.nosotros-imagen {
+  background-image: url(images/girasoles.jpg);
+  background-position: center;
+  height: 50vh;
+  width: 60%;
+}
+
+.nosotros-description {
+  background: #fcd21d;
+  height: 100%;
+  width: 55%;
+}
+
+.nosotros-description .large {
+  padding-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+/* Contact */
+#contact {
+  padding: 120px 0;
+  background: #841934;
+}
+
+.contact-form {
+  float: left;
+  width: 45%;
+  padding: 20px;
+}
+
+.contact-title {
+  float: right;
+  width: 55%;
+  padding-top: 160px;
+  text-align: center;
+}
+form .form-group {
+  margin-bottom: 1rem;
+}
+
+form .form-control {
+  /* display: block; */
+  width: 100%;
+  padding: 0.375rem 0.7rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  border: none;
+}
+
+/* Boton Form */
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 14px 23px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.btn-light {
+  background: #841934;
+  border: 1px solid #841934;
+  color: #fff;
+  width: 100%;
+}
+
+.btn-light:hover {
+  background: #fff;
+  border: 1px solid #841934;
+  color: #841934;
+}
