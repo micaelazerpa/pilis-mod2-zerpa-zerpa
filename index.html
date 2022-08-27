@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Flores</title>
     <link rel="shortcut icon" href="flor.ico" type="image/x-icon" />
   </head>
   <body>
     <header id="mainheader">
       <nav id="navbar">
-        <div class="container">
+        <div class="container" style="flex-direction: row-reverse">
+          
           <div class="logo">
             <h2>Paseo de Flores</h2>
             <a href="#home"><img src="flor.ico" alt="logo" /></a>
@@ -119,20 +121,20 @@
       </section>
 
       <section id="contact">
-        <div class="container">
+        <div class="container" style="flex-direction: row-reverse">
           <div class="contact-form">
             <h1>FORMULARIO DE CONTACTO</h1>
-            <form action="">
+            <form id="formulario">
               <div class="form-group">
                 <label for="name">Nombre</label>
-                <input class="form-control" type="text" />
+                <input id="name" class="form-control" type="text" />
               </div>
               <div class="form-group">
-                <label for="name">Email</label>
-                <input class="form-control" type="email" />
+                <label for="email">Email</label>
+                <input id="email" class="form-control" type="email" />
               </div>
               <div class="form-group">
-                <label for="name">Mensaje</label>
+                <label for="message">Mensaje</label>
                 <textarea
                   class="form-control"
                   name="message"
@@ -141,7 +143,7 @@
                   rows="10"
                 ></textarea>
               </div>
-              <button class="btn btn-light">Enviar</button>
+              <button id="enviar" class="btn btn-light">Enviar</button>
             </form>
           </div>
 
