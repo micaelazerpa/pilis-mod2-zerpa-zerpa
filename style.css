@@ -1,10 +1,14 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  height: 70px;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #91d18b;
 }
 /* ----------------nav---------------- */
 header {
+  display: flex;
+  justify-content: space-between;
   height: 100px;
   background-color: #440047;
   align-items: center;
@@ -43,9 +47,11 @@ header {
 }
 
 /* ---------------home---------------------- */
+
 main {
   background-color: #91d18b;
 }
+
 #home {
   display: flex;
   padding: 10px 10px 10px 10px;
@@ -65,15 +71,10 @@ main {
   width: 151%;
   padding: 20px 20px 20px 20px;
 }
-/* .dato1 h1 {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 46px;
-} */
 
 /* ------------el evento--------------- */
 #evento {
-  padding: 10px 10px 10px 10px;
+  padding: 100px 0;
   display: flex;
 }
 video {
@@ -87,7 +88,7 @@ video {
 .container {
   display: flex;
   margin: auto;
-  max-width: 1300px;
+  /* max-width: 1300px; */
   overflow: auto;
   padding: 0 10px;
 }
@@ -96,21 +97,19 @@ video {
 /* nosotros */
 #nosotros {
   display: flex;
-  background: #fcd21d;
   padding: 100px 0;
 }
 
-.nosotros-imagen {
-  background-image: url(images/girasoles.jpg);
+.nosotros-imagen img {
   background-position: center;
-  height: 50vh;
-  width: 60%;
+  width: 90%;
+  padding: 20px 20px 20px 20px;
 }
 
 .nosotros-description {
-  background: #fcd21d;
   height: 100%;
   width: 55%;
+  padding: 20px 20px 20px 20px;
 }
 
 .nosotros-description .large {
@@ -119,22 +118,21 @@ video {
 }
 
 /* Contact */
-#contact {
-  padding: 120px 0;
-  background: #841934;
-}
-
-.contact-form {
-  float: left;
-  width: 45%;
-  padding: 20px;
-}
-
-.contact-title {
-  float: right;
-  width: 55%;
-  padding-top: 160px;
+h1 {
   text-align: center;
+}
+.contact-form {
+  float: right;
+  width: 45%;
+  padding: 20px 20px 20px 20px;
+}
+h2 {
+  text-align: center;
+}
+.contact-title {
+  float: left;
+  width: 55%;
+  padding: 20px 20px 20px 20px;
 }
 form .form-group {
   margin-bottom: 1rem;
@@ -162,20 +160,20 @@ form .form-control {
 }
 
 .btn-light {
-  background: #841934;
-  border: 1px solid #841934;
-  color: #fff;
+  background: #440047;
+  border: 1px solid #440047;
+  color: #fbecec;
   width: 100%;
 }
 
 .btn-light:hover {
-  background: #fff;
-  border: 1px solid #841934;
-  color: #841934;
+  background: #e11d74;
+  border: 1px solid #440047;
+  color: #fbecec;
 }
 /*clima*/
-.vista-clima.h1{
-  text-align:center;
+.vista-clima.h1 {
+  text-align: center;
 }
 
 #clima {
