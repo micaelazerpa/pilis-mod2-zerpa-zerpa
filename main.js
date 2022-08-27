@@ -44,11 +44,24 @@ function onClick (event) {
     .then((response) => response.json())
     .then((json) => { 
         console.log(json);
-        Swal.fire(
+    /*     Swal.fire(
             'Enviado',
             'Gracias por tu comentario',
             'success'
-        );
+        ); */
+        Swal.fire({
+          title:'Enviado..Gracias por tu comentario',
+          width: 600,
+          padding: '3em',
+          color: '#716add',
+          background: '#fff url(/images/trees.png)',
+          backdrop: `
+            rgba(0,0,123,0.4)
+            url("/images/lluvia.gif")
+            left top
+            no-repeat
+          `
+        });
         cleanForm();
         /* redirectUrl(); */
     })

@@ -39,6 +39,7 @@ header {
   display: flex;
   align-items: center;
   color: #FBECEC;
+  padding: 0px 0px 0px 300px;
   
 }
 #navbar .logo img{
