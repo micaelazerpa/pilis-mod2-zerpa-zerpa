@@ -41,7 +41,8 @@ header {
   float: right;
   display: flex;
   align-items: center;
-  color: #fbecec;
+  color: #FBECEC;
+  padding: 0px 0px 0px 300px;
 }
 #navbar .logo img {
   height: 100px;
