@@ -7,11 +7,11 @@ body {
 }
 /* ----------------nav---------------- */
 header {
-  display: flex;
+  
   justify-content: space-between;
   height: 100px;
   background-color: #440047;
-  align-items: center;
+  align-items: right;
   padding: 10px 10px 10px 10px;
   margin: auto;
 }
@@ -19,7 +19,10 @@ header {
 #navbar ul {
   list-style: none;
   float: left;
-  display: flex;
+ 
+}
+#navbar ul li {
+  float: left;
 }
 #navbar ul li a {
   display: block;
@@ -45,6 +48,7 @@ header {
   height: 100px;
   margin-left: 10px;
   margin-right: 10px;
+  border-radius: 50%;
 }
 
 /* ---------------home---------------------- */
@@ -57,7 +61,7 @@ main {
   display: flex;
   padding: 10px 10px 10px 10px;
 }
-.imagen {
+a .imagen {
   float: right;
 }
 
@@ -189,18 +193,19 @@ form .form-control {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  padding-top: 10%;
+  padding-top: 3%;
   width: 200px;
   height: 200px;
   border-style: ridge;
+  border-radius:10px;
 }
 
 #temperatura {
-  background-color: rgba(0, 0, 0, 0.767);
+  background-color: #440047;
   color: azure;
 }
 #Ubicación {
-  background-color: darkslateblue;
+  background-color: #E11D74;
   color: azure;
 }
 
@@ -226,11 +231,11 @@ form .form-control {
 /*watsapp*/
 .float {
   position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
+  width: 70px;
+  height: 70px;
+  bottom: 50px;
+  right: 50px;
+  background-color: #32ad60;
   color: #fff;
   border-radius: 50px;
   text-align: center;
@@ -240,7 +245,7 @@ form .form-control {
 }
 .float:hover {
   text-decoration: none;
-  color: #25d366;
+  color: #32ad60;
   background-color: #fff;
 }
 
