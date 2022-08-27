@@ -12,56 +12,52 @@ header {
   margin: auto;
 }
 
-#navbar ul{
+#navbar ul {
   list-style: none;
   float: left;
   display: flex;
 }
-#navbar ul li a{
+#navbar ul li a {
   display: block;
   padding: 20px;
   text-align: center;
-  color: #FBECEC;
+  color: #fbecec;
   text-decoration: none;
   font-size: large;
-  
 }
-#navbar ul li a:hover{
-  background-color:#E11D74;
+#navbar ul li a:hover {
+  background-color: #e11d74;
 }
 
-#navbar .logo{
+#navbar .logo {
   text-transform: uppercase;
   float: right;
   display: flex;
   align-items: center;
-  color: #FBECEC;
-  
+  color: #fbecec;
 }
-#navbar .logo img{
+#navbar .logo img {
   height: 100px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
 /* ---------------home---------------------- */
-main{
-  background-color:#91D18B;
+main {
+  background-color: #91d18b;
 }
 #home {
   display: flex;
   padding: 10px 10px 10px 10px;
-  
 }
 .imagen {
   float: right;
- 
 }
 
 .imagen img {
   width: 100%;
   /*max-width: 50%; */
- /*  max-height: 50%; */
+  /*  max-height: 50%; */
 }
 
 .dato1 {
@@ -76,12 +72,11 @@ main{
 } */
 
 /* ------------el evento--------------- */
-#evento{
+#evento {
   padding: 10px 10px 10px 10px;
   display: flex;
- 
 }
-video{
+video {
   width: 100%;
 }
 .dato2 {
@@ -97,6 +92,7 @@ video{
   padding: 0 10px;
 }
 
+/* SECCIÓN MARGA*/
 /* nosotros */
 #nosotros {
   display: flex;
@@ -176,4 +172,76 @@ form .form-control {
   background: #fff;
   border: 1px solid #841934;
   color: #841934;
+}
+/*clima*/
+
+#clima {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+#temperatura,
+#Ubicación {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10%;
+  width: 200px;
+  height: 200px;
+  border-style: ridge;
+}
+
+#temperatura {
+  background-color: rgba(0, 0, 0, 0.767);
+  color: azure;
+}
+#Ubicación {
+  background-color: darkslateblue;
+  color: azure;
+}
+
+/** CONTACTOS **/
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #91d18b;
+  color: #91d18b;
+  padding: 20px;
+}
+.footer-section-container {
+  display: flex;
+  justify-content: center;
+}
+.footer-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+/*watsapp*/
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+}
+
+.my-float {
+  margin-top: 16px;
 }
