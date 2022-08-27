@@ -3,35 +3,92 @@ header {
   justify-content: space-between;
   height: 70px;
 }
-#navbar .logo {
-  text-transform: uppercase;
-  font-size: 25px;
-  padding: 16px;
-  font-weight: 400;
-  float: right;
+/* ----------------nav---------------- */
+header {
+  height: 100px;
+  background-color: #440047;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+}
+
+#navbar ul{
+  list-style: none;
+  float: left;
   display: flex;
 }
-
-#navbar .logo img {
-  height: 100px;
-}
-
-#navbar ul {
-  list-style: none;
-  text-transform: uppercase;
-  float: left;
-}
-
-#navbar ul li {
-  float: left;
-}
-
-#navbar ul li a {
+#navbar ul li a{
   display: block;
   padding: 20px;
   text-align: center;
+  color: #FBECEC;
+  text-decoration: none;
+  font-size: large;
+  
+}
+#navbar ul li a:hover{
+  background-color:#E11D74;
 }
 
+#navbar .logo{
+  text-transform: uppercase;
+  float: right;
+  display: flex;
+  align-items: center;
+  color: #FBECEC;
+  
+}
+#navbar .logo img{
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* ---------------home---------------------- */
+main{
+  background-color:#91D18B;
+}
+#home {
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  
+}
+.imagen {
+  float: right;
+ 
+}
+
+.imagen img {
+  width: 100%;
+  /*max-width: 50%; */
+ /*  max-height: 50%; */
+}
+
+.dato1 {
+  float: left;
+  width: 151%;
+  padding: 20px 20px 20px 20px;
+}
+/* .dato1 h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 46px;
+} */
+
+/* ------------el evento--------------- */
+#evento{
+  padding: 10px 10px 10px 10px;
+  display: flex;
+ 
+}
+video{
+  width: 100%;
+}
+.dato2 {
+  float: right;
+  width: 70%;
+  padding: 20px 20px 20px 20px;
+}
 .container {
   display: flex;
   margin: auto;
